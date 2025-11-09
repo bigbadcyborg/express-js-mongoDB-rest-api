@@ -11,7 +11,7 @@ Note:
 
 
 # Run your connection string in your application
-	$mongosh "mongodb+srv://cluster0.l80qzx1.mongodb.net/" --apiVersion 1 --username bigbadcyborg420 --password LPsNdbT9EFdzLx0h
+	$mongosh "mongodb+srv://cluster0.l80qzx1.mongodb.net/" --apiVersion 1 --username {MY_USER} --password {MY_PW}
 
 
 # allow access from anyway / wildcard (0.0.0.0/0) using MongoDB Atlas CLI
@@ -41,3 +41,4 @@ Note:
 
 # to grant read/write privs:
 	atlas dbusers update {USER} --projectId <PROJECT_ID_HERE> --role readWrite
+
